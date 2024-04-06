@@ -38,15 +38,21 @@ pnpm upload
 ```
 pnpm tuning
 ```
+<img width="825" alt="Screenshot 2024-04-06 at 4 12 25 PM" src="https://github.com/Dann1y/gpt-tuning-node/assets/29726020/793d74a8-abfd-4e69-a7a9-c0dfcce91ee4">
+
 
 - Fine-tuning starts based on the uploaded file.
 - Also, you can check the progress on the OpenAI platform website, and easily access the website by clicking returned URL.
+
+
+
 
 ### 3. Completion
 
 ```
 pnpm complete
 ```
+<img width="668" alt="Screenshot 2024-04-06 at 4 17 21 PM" src="https://github.com/Dann1y/gpt-tuning-node/assets/29726020/e65b60b0-1ae5-4c03-b5c5-3b06f6e95908">
 
 - Finally, when fine-tuning is completed, the results will arrive at the email you logged in to gpt.
 - Check ‘Output model’ in the URL and copy.
