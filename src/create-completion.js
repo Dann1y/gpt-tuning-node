@@ -14,7 +14,7 @@ async function createCompletion() {
 
     console.log(completion.choices[0]);
   } catch (err) {
-    console.log("[create-complettion]: ", err);
+    console.log("[create-completion]: ", err);
   }
 }
 
