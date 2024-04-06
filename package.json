@@ -1,0 +1,17 @@
+{
+  "name": "gpt-tuning-node",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Fine tuning gpt model with node.js.",
+  "main": "index.js",
+  "scripts": {
+    "upload": "node src/upload-data.js",
+    "tuning": "node src/create-tuning.js",
+    "complete": "node src/create-completion.js"
+  },
+  "author": "Dann1y",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.33.0"
+  }
+}
